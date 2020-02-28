@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BizFollow</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="userText">Username</string>
+    <string name="passText">Password</string>
+    <string name="Bizk">TODO</string>
+    <string name="CsList">List</string>
+    <string name="settingsBtn">Settings</string>
+    <string name="add_customerBtn">Add Customer</string>
+    <string name="SaveBtn">Save</string>
+    <string name="FollowFreq">Enter the Frequency</string>
+    <string name="VehicleType">Enter the Vehicle</string>
+    <string name="Address">Enter the Address</string>
+    <string name="cstName">Enter the Name</string>
+    <string name="nameC">Name:</string>
+    <string name="vehicleC">Vehicle:</string>
+    <string name="addressC">Address:</string>
+    <string name="first_follow_upC">First Follow up:</string>
+    <string name="name">Name</string>
+    <string name="name1">Name</string>
+    <string name="name2">Name</string>
+    <string name="name3">Name</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+</resources>
