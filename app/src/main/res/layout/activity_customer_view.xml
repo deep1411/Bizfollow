@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EE0A0A0A"
     tools:context=".CustomerView">
 
     <EditText
@@ -11,9 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
+        android:backgroundTint="#F838CCCC"
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
+        android:textColor="#F838CCCC"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.676"
@@ -27,9 +30,11 @@
         android:layout_marginStart="134dp"
         android:layout_marginTop="28dp"
         android:autofillHints=""
+        android:backgroundTint="#27DA9B"
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
+        android:textColor="#27DA9B"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,9 +45,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:autofillHints=""
+        android:backgroundTint="#27DA98"
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
+        android:textColor="#27DA9B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -55,9 +62,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:autofillHints=""
+        android:backgroundTint="#F838CCCC"
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
+        android:textColor="#F838CCCC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -70,13 +79,15 @@
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="23dp"
+        android:backgroundTint="#AEFCFBFA"
         android:keyboardNavigationCluster="false"
         android:text="@string/delete"
         app:layout_constraintBottom_toTopOf="@+id/btnBack"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btnUpdate"
-        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.559" />
 
     <Button
         android:id="@+id/btnUpdate"
@@ -84,23 +95,27 @@
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="23dp"
+        android:backgroundTint="#AEFCFBFA"
         android:text="@string/update"
         app:layout_constraintBottom_toTopOf="@+id/btnBack"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.559" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginBottom="150dp"
+        android:backgroundTint="#AEFCFBFA"
         android:onClick="bck"
         android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.881" />
 
     <TextView
         android:id="@+id/textView4"
@@ -108,6 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/vehicleC"
+        android:textColor="#27DA9B"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText3"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
@@ -120,6 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/first_follow_upC"
+        android:textColor="#27DA9B"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText4"
         app:layout_constraintEnd_toStartOf="@+id/editText4" />
@@ -131,6 +148,7 @@
         android:layout_marginStart="19dp"
         android:layout_marginBottom="12dp"
         android:text="@string/nameC"
+        android:textColor="#F838CCCC"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/editText"
         app:layout_constraintEnd_toStartOf="@+id/editText"
@@ -143,6 +161,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/addressC"
+        android:textColor="#F838CCCC"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText2"
         app:layout_constraintEnd_toStartOf="@+id/editText2"
@@ -155,7 +174,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="305dp" />
+        app:layout_constraintGuide_begin="345dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"

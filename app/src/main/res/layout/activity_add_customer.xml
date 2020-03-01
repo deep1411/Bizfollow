@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EE0A0A0A"
     tools:context=".AddCustomer">
 
     <EditText
@@ -71,6 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nameC"
+        android:textColor="#F838CCCC"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/cstName"
         app:layout_constraintEnd_toStartOf="@+id/cstName" />
@@ -82,6 +84,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginBottom="16dp"
         android:text="@string/addressC"
+        android:textColor="#F838CCCC"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/cstAddress"
         app:layout_constraintStart_toStartOf="parent" />
@@ -96,6 +99,7 @@
         android:hint="@string/VehicleType"
         android:inputType="textPersonName"
         android:labelFor="@+id/cstVehicle"
+        android:textColor="#F838CCCC"
         app:layout_constraintBottom_toTopOf="@+id/followFreq"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.651"
@@ -111,6 +115,7 @@
         android:hint="@string/FollowFreq"
         android:inputType="textPersonName"
         android:labelFor="@+id/followFreq"
+        android:textColor="#F838CCCC"
         app:layout_constraintBottom_toTopOf="@+id/save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.651"
